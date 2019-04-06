@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_leader_board"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/nav_your_info"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Your Info" />
+        <item
+            android:id="@+id/nav_team_info"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Team Info" />
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Sign out" />
+    </group>
+
+
+
+</menu>
